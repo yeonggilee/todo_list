@@ -1,16 +1,15 @@
-# 변경된 파일 확인
+## 변경된 파일 확인
 
 **src/index.js**
 
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './styles/main.scss';
-import App from './components/App';
-import * as serviceWorker from './serviceWorker';
-
-ReactDOM.render(<App />, document.getElementById('root'));
-serviceWorker.unregister();
-
+          import React from 'react';
+          import ReactDOM from 'react-dom';
+          import './styles/main.scss';
+          import App from './components/App';
+          import * as serviceWorker from './serviceWorker';
+          
+          ReactDOM.render(<App />, document.getElementById('root'));
+          serviceWorker.unregister();
 
 **webpack.config.prod.js**
 
