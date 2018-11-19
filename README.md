@@ -1,6 +1,6 @@
-변경된 파일 확인
+## 변경된 파일 확인
 
-*src/index.js*
+# src/index.js
 
 import React from 'react';
 import ReactDOM from 'react-dom';
@@ -12,7 +12,7 @@ ReactDOM.render(<App />, document.getElementById('root'));
 serviceWorker.unregister();
 
 
-*webpack.config.prod.js*
+# webpack.config.prod.js
 
           {  
             test: sassRegex,
@@ -43,7 +43,7 @@ serviceWorker.unregister();
             //sideEffects: true,
           },
 
-*webpack.config.dev.js*
+# webpack.config.dev.js
 
           {  
             test: sassRegex,
