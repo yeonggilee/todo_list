@@ -59,7 +59,9 @@
   "scripts": {
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
-    "test": "node scripts/test.js"
+    "test": "node scripts/test.js",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -116,5 +118,8 @@
       "react-app"
     ]
   },
-  "homepage" : "http://yeonggilee.github.io/todo_list"
+  "homepage": "http://yeonggilee.github.io/todo_list",
+  "devDependencies": {
+    "gh-pages": "^2.0.1"
+  }
 }
