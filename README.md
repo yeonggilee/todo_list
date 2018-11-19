@@ -1,18 +1,17 @@
-변경된 파일 확인
+## 변경된 파일 확인
 
-*src/index.js*
+**src/index.js**
 
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './styles/main.scss';
-import App from './components/App';
-import * as serviceWorker from './serviceWorker';
+          import React from 'react';
+          import ReactDOM from 'react-dom';
+          import './styles/main.scss';
+          import App from './components/App';
+          import * as serviceWorker from './serviceWorker';
+          
+          ReactDOM.render(<App />, document.getElementById('root'));
+          serviceWorker.unregister();
 
-ReactDOM.render(<App />, document.getElementById('root'));
-serviceWorker.unregister();
-
-
-*webpack.config.prod.js*
+**webpack.config.prod.js**
 
           {  
             test: sassRegex,
@@ -43,7 +42,7 @@ serviceWorker.unregister();
             //sideEffects: true,
           },
 
-*webpack.config.dev.js*
+**webpack.config.dev.js**
 
           {  
             test: sassRegex,
