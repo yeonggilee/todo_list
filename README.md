@@ -57,6 +57,8 @@
             })
           },
 
+**명령어 `yarn build`로 홈페이지 생성** (자세한 설정 -> 명령어 실행 후 나타나는 지시 따르기) 
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
